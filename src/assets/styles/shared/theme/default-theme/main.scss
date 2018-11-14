@@ -1,0 +1,19 @@
+/*!
+ =========================================================
+ * Manningham
+ =========================================================
+ * Product Page:
+ * Copyright 2018 Programus Limited
+ * License  Programus Limited
+ =========================================================
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
+@import "variables";
+@import "colors";
+
+@import "reset";
+@import "bootstrap/scss/bootstrap.scss";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./mixins/mixin";
+@import "sample";

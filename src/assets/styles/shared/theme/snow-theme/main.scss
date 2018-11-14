@@ -1,0 +1,23 @@
+/*!
+ =========================================================
+ * Manningham
+ =========================================================
+ * Product Page:
+ * Copyright 2018 Programus Limited
+ * License  Programus Limited
+ =========================================================
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ //@import "./shared/theme/ccs-default-theme/booking-details-full-page";
+
+*/
+
+.snow {
+  @import "variables";
+  @import "colors";
+
+  @import "../default-theme/reset";
+  @import "../default-theme/bootstrap/scss/bootstrap.scss";
+  @import "../default-theme/mixins/mixin.scss";
+  @import "../default-theme/sample";
+}
