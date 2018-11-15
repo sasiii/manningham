@@ -22,6 +22,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    RouterModule.forRoot(appRoutes),
     MaterialcomponentsModule
   ],
   providers: [],
