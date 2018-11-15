@@ -1,6 +1,15 @@
 .#{$pre}-container{
     width: 100%;
-    .header{
-        
+    h2, h3, h4{
+        padding: 15px 0;
+    }
+    table{
+        th{
+            font-weight: 600;
+        }
+        table-layout: fixed;
+        p{
+            margin-bottom: 0px;
+        }
     }
 }
