@@ -18,3 +18,11 @@
     <textarea matInput placeholder="Leave a comment"></textarea>
   </mat-form-field>
 </form>
+
+<button mat-mini-fab class="matbtn-right" [matMenuTriggerFor]="menu"><i class="material-icons">
+    favorite
+  </i></button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item onclick="myTheme1()">Default Theme</button>
+  <button mat-menu-item onclick="myTheme2()">Snow Theme</button>
+</mat-menu>

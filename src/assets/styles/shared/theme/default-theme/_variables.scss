@@ -1,6 +1,6 @@
 $theme_color: red !default;
 
-$prifix: "man";
+$prifix: "man_";
 
 //Typography
 $font-family__montserratAlternates--semiBold: "MontserratAlternates SemiBold";
@@ -21,16 +21,38 @@ $man_color--primary-green: #008d4a;
 
 $man_color--secondary-green: #2ecd73;
 $man_color--secondary-blue: #006ff8;
+$man_color--secondary-darkgray: #4f4f4f;
+$man_color--secondary-lightgray: #696969;
+$man_color--secondary-red: #eb1818;
 $man_color--secondary-orange: #f85f30;
 
-// $man_color--tertiary: ;
-// $man_color--quaternary: ;
+$man_color--white: #fff;
+$man_color--black: #000;
 
 //Text Colors
-$man_text-color--primary__darkgray: #4f4f4f;
-$man_text-color--primary-black: #000;
-$man_text-color--primary-white: #fff;
+$man_text-color--primary__darkgray: $man_color--secondary-darkgray;
+$man_text-color--primary-black: $man_color--black;
+$man_text-color--primary-white: $man_color--white;
 $man_text-color--primary-highlights: $man_color--primarry-pink;
-$man_text-color--secondary-lightgray: #696969;
+$man_text-color--secondary-lightgray: $man_color--secondary-lightgray;
 $man_text-color--tertiary-purple: #992e98;
-$man_text-color--quaternary-red: #eb1818;
+$man_text-color--quaternary-red: $man_color--secondary-red;
+
+//State Colors
+$man_state--no-state: $man_color--primarry-pink;
+
+//Button Colors
+$man_btn--success: $man_color--secondary-green;
+$man_btn--default: $man_color--secondary-blue;
+
+//Background Color
+$man_backgrond--light: #ebebeb;
+$man_backgrond--footer-light: $man_color--primary-lightgreen;
+$man_backgrond--footer-light: $man_color--primary-green;
+$man_backgrond--alert: $man_text-color--quaternary-red;
+
+//Icon Color
+$man_icon-color--logo: $man_color--primary-logo;
+$man_icon-color--white: $man_color--white;
+$man_icon-color--svg: $man_color--primary-purple;
+$man_icon-color--material: $man_color--secondary-darkgray;
