@@ -1,2 +1,37 @@
 $pre:man;
 $theme_color: red !default;
+
+$prifix: "man";
+
+//Typography
+$font-family__montserratAlternates--semiBold: "MontserratAlternates SemiBold";
+$font-family__montserrat--medium: "Montserrat Medium";
+$font-family__montserrat--semiBold: "Montserrat SemiBold";
+$font-family__montserrat--regular: "Montserrat Regular";
+$font-family__montserrat--ultraLight: "Montserrat UltraLight";
+$font-family__montserrat--regular: "Montserrat Bold";
+
+//manningham Theme Colors
+$man_color--primary-logo: #00688c;
+$man_color--primary-lightpurple: #b05ea6;
+$man_color--primary-purple: #a03994;
+$man_color--primary-darkpurple: #51447c;
+$man_color--primarry-pink: #f73281;
+$man_color--primary-lightgreen: #c2e067;
+$man_color--primary-green: #008d4a;
+
+$man_color--secondary-green: #2ecd73;
+$man_color--secondary-blue: #006ff8;
+$man_color--secondary-orange: #f85f30;
+
+// $man_color--tertiary: ;
+// $man_color--quaternary: ;
+
+//Text Colors
+$man_text-color--primary__darkgray: #4f4f4f;
+$man_text-color--primary-black: #000;
+$man_text-color--primary-white: #fff;
+$man_text-color--primary-highlights: $man_color--primarry-pink;
+$man_text-color--secondary-lightgray: #696969;
+$man_text-color--tertiary-purple: #992e98;
+$man_text-color--quaternary-red: #eb1818;
