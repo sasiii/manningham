@@ -11,7 +11,7 @@ import { TypographyComponent } from './typography/typography.component';
 
 
 const appRoutes: Routes = [
-  { path: '/typography', component: TypographyComponent },
+  { path: 'typography', component: TypographyComponent },
 
   { path: '', redirectTo: '/man-sample-comp', pathMatch: 'full' },
   { path: '**', redirectTo: '/man-sample-comp', pathMatch: 'full' }
@@ -26,9 +26,8 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialcomponentsModule,
-    // RouterModule.forRoot(appRoutes),
-
+    RouterModule.forRoot(appRoutes),
+    MaterialcomponentsModule
   ],
   providers: [{ provide: APP_BASE_HREF, useValue: '/' }],
   bootstrap: [AppComponent]
