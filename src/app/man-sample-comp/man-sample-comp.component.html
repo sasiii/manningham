@@ -18,6 +18,8 @@
     <textarea matInput placeholder="Leave a comment"></textarea>
   </mat-form-field>
 </form>
+<a [routerLink]="['/typography']" routerLinkActive="active">Goto</a>
+<button routerLink="/man-sample-comp">Go to sidekicks</button>
 
 <button mat-mini-fab class="matbtn-right" [matMenuTriggerFor]="menu"><i class="material-icons">
     favorite
@@ -26,3 +28,4 @@
   <button mat-menu-item onclick="myTheme1()">Default Theme</button>
   <button mat-menu-item onclick="myTheme2()">Snow Theme</button>
 </mat-menu>
+<router-outlet></router-outlet>
