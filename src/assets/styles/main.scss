@@ -2,3 +2,9 @@
 @import "./shared/theme/snow-theme/main";
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 // @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+*,
+html,
+body {
+  // font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}

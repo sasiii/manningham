@@ -1,4 +1,4 @@
-$pre:man;
+$pre: man;
 $theme_color: red !default;
 
 $prifix: "man_";
@@ -57,3 +57,12 @@ $man_icon-color--logo: $man_color--primary-logo;
 $man_icon-color--white: $man_color--white;
 $man_icon-color--svg: $man_color--primary-purple;
 $man_icon-color--material: $man_color--secondary-darkgray;
+
+//Button Colors
+$man_color_btn_default: $man_color--white;
+$man_color_btn_active: $man_color--secondary-blue;
+$man_color_btn_success: $man_color--primary-green;
+$man_color_btn_pick: $man_color--primarry-pink;
+
+$opt_color_btn_disabled: #ebebeb;
+$opt_color_btn_outline: #91a0ad;
