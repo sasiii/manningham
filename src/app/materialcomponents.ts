@@ -34,6 +34,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatBadgeModule } from '@angular/material/badge';
+import { from } from 'rxjs';
 //import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
@@ -69,6 +71,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
         MatTableModule,
         MatSortModule,
         MatPaginatorModule,
+        MatBadgeModule,
         // DragDropModule
     ],
     exports: [
@@ -103,6 +106,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
         MatTableModule,
         MatSortModule,
         MatPaginatorModule,
+        MatBadgeModule,
         //DragDropModule
     ],
     // providers: [{ provide: APP_BASE_HREF, useValue: '/' }],

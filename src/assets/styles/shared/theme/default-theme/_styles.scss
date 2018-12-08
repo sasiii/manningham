@@ -1,0 +1,11 @@
+.header-wrapper {
+  background-image: linear-gradient(
+    to right,
+    $man_color--primary-purple,
+    $man_color--primarry-pink,
+    $man_color--primary-purple
+  );
+  .wrapper_items {
+    min-height: 100px;
+  }
+}

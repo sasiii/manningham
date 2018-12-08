@@ -9,6 +9,7 @@ import { ManSampleCompComponent } from './man-sample-comp/man-sample-comp.compon
 import { TypographyComponent } from './typography/typography.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ManMainComponent } from './man-main/man-main.component';
+import { ManHeaderComponent } from './man-header/man-header.component';
 
 
 
@@ -16,6 +17,7 @@ const appRoutes: Routes = [
   { path: '', component: ManSampleCompComponent },
   { path: 'typography', component: TypographyComponent },
   { path: 'man-main', component: ManMainComponent },
+  { path: 'man-header', component: ManHeaderComponent },
 
   // { path: '', redirectTo: './man-sample-comp', pathMatch: 'full' },
   // { path: '**', redirectTo: './man-sample-comp', pathMatch: 'full' }
@@ -26,7 +28,8 @@ const appRoutes: Routes = [
     AppComponent,
     ManSampleCompComponent,
     TypographyComponent,
-    ManMainComponent
+    ManMainComponent,
+    ManHeaderComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,169 @@
+//manningham header..............................................................
+.man_ {
+  &header {
+    .main_header-wrapper {
+      @include respond-to("x-small") {
+        padding: 0;
+      }
+      @include respond-to("small") {
+        padding: 0;
+      }
+      @include respond-to("medium") {
+        padding: 15px 40px;
+      }
+      @include respond-to("large") {
+        padding: 15px 40px;
+      }
+      color: $man_color--white;
+      background-image: linear-gradient(
+        to right,
+        $man_color--primary-darkpurple,
+        $man_color--primary-darkpurple,
+        $man_color--primary-purple,
+        $man_color--primarry-pink,
+        $man_color--primary-purple,
+        $man_color--primary-darkpurple,
+        $man_color--primary-darkpurple
+      );
+      .wrapper_items {
+        // padding: 15px 40px;
+        min-height: 130px;
+      }
+      .cart-wrapper {
+        .mat-raised-button {
+          min-width: 55px;
+          &.mat-primary {
+            background-color: $man_color--secondary-green !important;
+          }
+        }
+      }
+      .lang {
+        .mat-form-field-appearance-legacy {
+          border-radius: 10px 0 0 10px;
+        }
+      }
+      .country {
+        .mat-form-field-appearance-legacy {
+          border-radius: 0 10px 10px 0;
+        }
+      }
+      .mat-form-field-appearance-legacy {
+        background: rgba(108, 61, 201, 0.3);
+        .mat-form-field-infix {
+          max-width: 100px;
+          padding: 0;
+        }
+        .mat-form-field-underline {
+          display: none;
+        }
+        .mat-select-value {
+          color: $man_color--white;
+          font-size: 15px;
+          text-transform: uppercase;
+          text-align: center;
+        }
+        .mat-select-arrow {
+          color: $man_color--white;
+          &.ng-star-inserted {
+            color: $man_color--white;
+          }
+        }
+      }
+      .ref-set {
+        @include respond-to("x-small") {
+          display: none;
+        }
+        @include respond-to("small") {
+          display: none;
+        }
+        @include respond-to("medium") {
+          display: none;
+        }
+        @include respond-to("large") {
+          display: flex;
+        }
+        span {
+          padding: 0 10px;
+        }
+      }
+      .first-set {
+        @include respond-to("x-small") {
+          flex-wrap: wrap;
+        }
+        @include respond-to("small") {
+          flex-wrap: wrap;
+        }
+        @include respond-to("medium") {
+          flex-wrap: nowrap;
+        }
+        @include respond-to("large") {
+          flex-wrap: nowrap;
+        }
+      }
+      .login-sec {
+        .login-icon {
+          display: inline;
+          background-color: $man_color--white;
+          border-radius: 50%;
+          height: 30px;
+          width: 30px;
+          i {
+            color: $man_color--secondary-darkgray;
+          }
+        }
+      }
+    }
+  }
+  // alternative header..............................................................
+  &alternative-header {
+    color: $man_color--primary-darkpurple;
+    padding: 0 40px;
+    .sub_header-wrapper {
+      min-width: 60px;
+      @include box_shadow(2);
+      background-color: $man_backgrond--light;
+      .left-set {
+        // border-right: 1px solid $man_color--white;
+      }
+    }
+    .first-set {
+      border-right: 1px solid $man_color--white;
+      @include respond-to("x-small") {
+        flex-wrap: wrap;
+      }
+      @include respond-to("small") {
+        flex-wrap: wrap;
+      }
+      @include respond-to("medium") {
+        flex-wrap: nowrap;
+      }
+      @include respond-to("large") {
+        flex-wrap: nowrap;
+      }
+    }
+    .cart-wrapper {
+      padding-right: 20px;
+      .mat-raised-button {
+        min-width: 55px;
+        &.mat-primary {
+          background-color: $man_color--secondary-green !important;
+        }
+      }
+    }
+    .login-sec {
+      .login-icon {
+        display: inline;
+        background-color: $man_color--white;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        i {
+          color: $man_color--secondary-darkgray;
+        }
+      }
+      .second-set {
+        border-left: 1px solid $man_color--secondary-darkgray;
+      }
+    }
+  }
+}

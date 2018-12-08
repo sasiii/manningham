@@ -1,10 +1,30 @@
-@import "./shared/theme/default-theme/main";
-@import "./shared/theme/snow-theme/main";
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
-// @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 *,
 html,
 body {
   // font-family: 'Noto Sans TC', sans-serif;
   font-family: "Montserrat", sans-serif;
 }
+/*!
+ =========================================================
+ * Manningham
+ =========================================================
+ * Product Page:
+ * Copyright 2018 Programus Limited
+ * License  Programus Limited
+ =========================================================
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800|Noto+Sans+TC:100,300,400,500,700,900");
+
+@import "./Base/reset";
+@import "./Base/color";
+@import "./Base/typography";
+
+@import "./Vendors/Bootstrap/scss/bootstrap.scss";
+@import "./Helpers/variables";
+@import "./Helpers/mixins";
+
+@import "./Layout/grid";
+
+@import "./Module/header";

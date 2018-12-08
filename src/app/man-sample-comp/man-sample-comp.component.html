@@ -1,6 +1,15 @@
 <p>
   man-sample-comp works!
 </p>
+
+<button mat-mini-fab class="matbtn-right" [matMenuTriggerFor]="menu"><i class="material-icons">
+    favorite
+  </i></button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item onclick="myTheme1()">Default Theme</button>
+  <button mat-menu-item onclick="myTheme2()">Snow Theme</button>
+</mat-menu>
+
 <h1>TEST</h1>
 <div class="row">
   <div class="col-md-3">1</div>
@@ -18,14 +27,8 @@
     <textarea matInput placeholder="Leave a comment"></textarea>
   </mat-form-field>
 </form>
-<a [routerLink]="['/typography']" routerLinkActive="active">Goto</a>
-<button routerLink="/man-sample-comp">Go to sidekicks</button>
+<a [routerLink]="['/typography']">Goto Typography</a>
+<br />
+<a [routerLink]="['/man-main']" routerLinkActive="active">Goto Main</a>
 
-<button mat-mini-fab class="matbtn-right" [matMenuTriggerFor]="menu"><i class="material-icons">
-    favorite
-  </i></button>
-<mat-menu #menu="matMenu">
-  <button mat-menu-item onclick="myTheme1()">Default Theme</button>
-  <button mat-menu-item onclick="myTheme2()">Snow Theme</button>
-</mat-menu>
 <router-outlet></router-outlet>
